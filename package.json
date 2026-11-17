@@ -1,0 +1,27 @@
+{
+  "name": "unixarena",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A gamified, social platform for learning Linux together",
+  "type": "module",
+  "scripts": {
+    "predev": "node scripts/fetch-assets.mjs",
+    "dev": "vite",
+    "prebuild": "node scripts/fetch-assets.mjs",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bekmurod2510/unixarena.git"
+  },
+  "devDependencies": {
+    "typescript": "^7.0.2",
+    "vite": "^8.3.8"
+  },
+  "dependencies": {
+    "@xterm/addon-fit": "^0.11.0",
+    "@xterm/xterm": "^6.0.0",
+    "v86": "^0.5.473"
+  }
+}

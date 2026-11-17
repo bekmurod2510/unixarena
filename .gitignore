@@ -1,0 +1,4 @@
+node_modules/
+dist/
+# Emulator BIOS and Linux image, downloaded by scripts/fetch-assets.mjs
+public/v86/

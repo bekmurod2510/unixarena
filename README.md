@@ -9,11 +9,24 @@ Learn Linux in a real in-browser terminal, then race a friend 1v1 on the same ta
 
 ## Status
 
-**Iteration 1: Foundation & Planning.** The repository currently contains planning documents only. No application code has been written yet.
+**Iteration 1: Foundation & Planning.** The repository contains the planning documents and a first working browser terminal: a Linux VM that boots in the page and gives you a shell. Accounts, challenges and everything else are not built yet.
 
 | Document | Contents |
 |---|---|
 | [docs/PROJECT_BRIEF.md](docs/PROJECT_BRIEF.md) | Problem statement, six-month scope, background survey |
+
+## Run it
+
+Requires Node.js 20 or newer.
+
+```
+npm install
+npm run dev
+```
+
+The browser opens straight into a Linux terminal. The first run downloads the BIOS files and a ~10 MB Linux image into `public/v86/`.
+
+The terminal currently boots the Buildroot Linux image published by the v86 project. The Alpine Linux image planned in the proposal will replace it.
 
 ## Why
 
