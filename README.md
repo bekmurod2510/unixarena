@@ -20,13 +20,22 @@ Learn Linux in a real in-browser terminal, then race a friend 1v1 on the same ta
 Requires Node.js 20 or newer.
 
 ```
+cd frontend
 npm install
 npm run dev
 ```
 
-The browser opens straight into a Linux terminal. The first run downloads the BIOS files and a ~10 MB Linux image into `public/v86/`.
+The browser opens straight into a Linux terminal. The first run downloads the BIOS files and a ~10 MB Linux image into `frontend/public/v86/`.
 
-Built with Vite, TypeScript and Tailwind CSS. The terminal currently boots the Buildroot Linux image published by the v86 project. The Alpine Linux image planned in the proposal will replace it.
+## Repository layout
+
+| Folder | Contents |
+|---|---|
+| `frontend/` | The web app: React, Vite, TypeScript, Tailwind CSS, xterm.js and v86. `src/App.tsx` is the root component; reusable components live in `src/components/` |
+| `backend/` | Reserved for the Supabase project (migrations, Edge Functions); empty for now |
+| `docs/` | Planning documents |
+
+Built with React, Vite, TypeScript and Tailwind CSS. The terminal currently boots the Buildroot Linux image published by the v86 project. The Alpine Linux image planned in the proposal will replace it.
 
 ## Why
 
