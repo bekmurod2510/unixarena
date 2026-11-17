@@ -26,7 +26,7 @@ npm run dev
 
 The browser opens straight into a Linux terminal. The first run downloads the BIOS files and a ~10 MB Linux image into `public/v86/`.
 
-The terminal currently boots the Buildroot Linux image published by the v86 project. The Alpine Linux image planned in the proposal will replace it.
+Built with Vite, TypeScript and Tailwind CSS. The terminal currently boots the Buildroot Linux image published by the v86 project. The Alpine Linux image planned in the proposal will replace it.
 
 ## Why
 

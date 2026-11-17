@@ -1,6 +1,7 @@
 import { Terminal } from "@xterm/xterm";
 import { FitAddon } from "@xterm/addon-fit";
 import "@xterm/xterm/css/xterm.css";
+import "./style.css";
 import { V86 } from "v86";
 import wasmUrl from "v86/build/v86.wasm?url";
 

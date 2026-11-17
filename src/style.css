@@ -1,0 +1,15 @@
+@import "tailwindcss";
+
+/*
+ * xterm.js renders its own markup, so its scrollbar cannot be styled with
+ * utility classes. Hide it; the mouse wheel still scrolls the history.
+ */
+.xterm .xterm-scrollable-element > .scrollbar {
+  display: none !important;
+}
+.xterm .xterm-viewport {
+  scrollbar-width: none;
+}
+.xterm .xterm-viewport::-webkit-scrollbar {
+  display: none;
+}

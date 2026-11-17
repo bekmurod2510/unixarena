@@ -16,6 +16,8 @@
     "url": "git+https://github.com/bekmurod2510/unixarena.git"
   },
   "devDependencies": {
+    "@tailwindcss/vite": "^4.3.5",
+    "tailwindcss": "^4.3.5",
     "typescript": "^7.0.2",
     "vite": "^8.3.8"
   },
