@@ -10,6 +10,17 @@
         height: 100%;
         margin: 0;
         background: #0d1117;
+        overflow: hidden;
+      }
+      /* Hide the terminal's scrollbar; the mouse wheel still scrolls the history. */
+      .xterm .xterm-scrollable-element > .scrollbar {
+        display: none !important;
+      }
+      .xterm .xterm-viewport {
+        scrollbar-width: none;
+      }
+      .xterm .xterm-viewport::-webkit-scrollbar {
+        display: none;
       }
       #terminal {
         height: 100%;
