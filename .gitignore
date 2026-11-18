@@ -2,3 +2,6 @@ node_modules/
 dist/
 # Emulator BIOS and Linux image, downloaded by frontend/scripts/fetch-assets.mjs
 frontend/public/v86/
+supabase/.branches
+supabase/.temp
+.env
